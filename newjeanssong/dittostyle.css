@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(31, 30, 30);
+    padding-top: 10px;
+    margin-left: -11.6px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 24px;
+}
+
+.newjeans-title-img{
+    cursor: pointer;
+    width: 280px;
+    transition: all 0.765s ease;
+}
+
+.newjeans-title-img:hover{
+    width: 300px;
+}
+
+
+.haerin-img{
+    position: absolute;
+    display: flex;
+    margin-top: -170px;
+    margin-left: 650px;
+    border-radius: 40px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.hyein-img{
+    position: absolute;
+    border-radius: 10px;
+    display: flex;
+    margin-top: -150px;
+    margin-left: -640px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.cat-img{
+    position: absolute;
+    margin-left: 637px;
+    border-radius: 20px;
+    margin-top: 350px;
+    width: 240px;
+    cursor: pointer;
+}
+
+.newjeans-poster{
+    position: absolute;
+    border-radius: 100px;
+    margin-top: 220px;
+    margin-left: -640px;
+    width: 280px;
+    cursor: pointer;
+}
+
+.song-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+
+.ditto-image{
+    margin-top: -600px;
+    width: 200px;
+}
+
+
+.ditto-album-container{
+    top: 50%;
+    left: 50%;
+    width: 780px;
+    height: 400px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: rgba(233, 156, 156, 0.747);;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+
+.ditto-title-container{
+    margin-top: 387px;
+
+}
+
+.ditto-image{
+    border-right: 1px solid black;
+    border-radius: 7px;
+    border-bottom: 1px solid black;
+    
+}
+
+.ditto-album{
+    margin-left: 435px;
+    margin-top: -390px;
+    border-radius: 10px;
+    padding: 7px;
+    width: 235px;
+    box-shadow: 10px 10px 15px rgba(156, 36, 36, 0.616);
+}
+
+.ditto-album-img{
+    border-radius: 10px;
+    width: 223px;
+}
+
+.ditto-audio{
+    margin-top: 30px;
+    margin-left: 410px;
+}
+
+.dropdown-item{
+    transition: all 0.424s ease;
+}
+
+.dropdown-item:hover{
+    border-radius: 3px;
+    background-color: #b7b7b9;
+}
+
+.hurt-img{
+    border-radius: 10px;
+    width: 17px;
+}
+
+.hypeboy-img, .hurt-img, .omg-img, .ditto-img{
+    border-radius: 5px;
+    width: 20px;
+}
